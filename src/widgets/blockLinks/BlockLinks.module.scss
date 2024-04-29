@@ -1,0 +1,70 @@
+.wrap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.block {
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  height: 400px;
+  width: 300px;
+  min-width: 250px;
+  border-radius: 10px;
+  box-shadow:  7px 7px 10px #0d0d0d,
+  -7px -7px 10px #1b1b1b;
+  transition: all 0.4s;
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.smaller {
+  transform: scale(0.9);
+  &:hover {
+    transform: scale(0.92);
+  }
+}
+
+.kraken {
+  background-color: transparent;
+  background-image:  url('/img/krakenSvg.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mega {
+  background-color: transparent;
+  background-image:  url('/img/mega.svg');
+  background-size: 210%;
+  background-position: right;
+  background-repeat: repeat;
+}
+
+.sprut {
+  background-color: transparent;
+  background-image:  url('/img/logo-black-sprut.png');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+  .wrap {
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 30px;
+    row-gap: 30px;
+  }
+
+  .block {
+    margin: auto;
+    height: 350px;
+    width: 300px;
+  }
+}

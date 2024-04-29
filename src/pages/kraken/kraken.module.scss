@@ -1,0 +1,140 @@
+.topText {
+  margin-top: 150px;
+  @apply text-center text-[32px] font-[600] mb-[44px];
+}
+
+.text1 {
+  @apply ml-[20px] text-[18px] font-[400] mb-[12px];
+}
+
+.txt_img_block {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+.image_rekl {
+  width: 500px;
+  margin: 0 50px 0 50px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.text2 {
+  text-align: center;
+  padding: 0 100px;
+}
+
+
+@media screen and (max-width: 980px){
+  .image_rekl {
+    width: 400px;
+  }
+}
+
+.h3 {
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.info {
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(145deg, #1c1c1c, #171717);
+  box-shadow:  8px 8px 16px #0e0e0e,
+  -8px -8px 16px #262626;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 40px;
+  * {
+    font-size: 18px;
+  }
+}
+
+.blockShad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(145deg, #1c1c1c, #171717);
+  box-shadow:  8px 8px 16px #0e0e0e,
+  -8px -8px 16px #262626;
+}
+
+.btn {
+  white-space: nowrap;
+    border-radius: 5px;
+    background: #820014;
+  max-width: 100%;
+    padding: 5px 70px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+    box-shadow: inset -25px -25px 50px #340008,
+    inset 25px 25px 50px #d00020;
+}
+
+
+.itemInfo {
+  padding-left: 15px;
+  strong {
+    font-weight: 600;
+    display: block;
+    position: relative;
+  }
+  strong:before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: darkred;
+    border-radius: 50%;
+    left: -15px;
+    top: 10px;
+  }
+}
+
+.h4 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 780px){
+  .btn {
+    padding: 5px 10px;
+  }
+
+
+  .text1 {
+    max-width: 100%;
+    padding: 0 20px;
+    margin-left: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .txt_img_block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image_rekl {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,27 @@
+.lentaWrap {
+  background-color: #820014;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  padding: 5px;
+  overflow-x: hidden;
+  top: 70px;
+  z-index: 12;
+  box-shadow: inset -20px -20px 40px #340008,
+  inset 20px 20px 40px #d00020;
+}
+
+.itemLent {
+  display: flex;
+  flex-direction: row;
+  animation: gogo 18s linear infinite;
+}
+
+@keyframes gogo {
+  0% {
+  transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-595px);
+  }
+}

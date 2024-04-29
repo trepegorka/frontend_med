@@ -1,0 +1,25 @@
+.homeBlock {
+  margin-top: 150px;
+  overflow-x: hidden;
+}
+
+.mainText {
+  @apply text-center text-[32px] font-[600] mb-[12px];
+  position: relative;
+  z-index: 4;
+}
+
+.secondText {
+  @apply text-center text-[22px] max-w-[750px] m-auto;
+  margin-bottom: 80px;
+  cursor: default;
+  position: relative;
+  z-index: 4;
+}
+
+
+@media screen and (max-width: 900px) {
+  .secondText {
+    margin-bottom: 30px;
+  }
+}
