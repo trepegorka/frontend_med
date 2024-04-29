@@ -9,7 +9,10 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 		<>
 			<Head>
 				<title>Kraken</title>
-				<meta name="description" content="NextJS App" />
+				<meta
+					name="description"
+					content="КРАКЕН onion - маркетплейс даркнет площадка. KRAKEN портал ссылка даркнет онион тор kraken krkn зеркало. Ссылка на kraken вход сайт."
+				/>
 				<link rel="icon" href="" />
 				<meta
 					name="viewport"
