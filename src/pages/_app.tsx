@@ -8,11 +8,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Мониторинг DarkSide. Ссылка на любимый маркетплейс.</title>
-				<meta
-					name="description"
-					content="КРАКЕН onion - маркетплейс даркнет площадка. KRAKEN портал ссылка даркнет онион тор kraken krkn зеркало. Ссылка на kraken вход сайт. Мониторинг"
-				/>
 				<link rel="icon" href="/img/logo.svg" />
 				<meta
 					name="viewport"
