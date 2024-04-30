@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://darkside-links.com/sitemap.xml
